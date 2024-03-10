@@ -1,0 +1,15 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro{
+    text-align: center;
+    color: #415c4b;
+}
+.columns{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    
+}

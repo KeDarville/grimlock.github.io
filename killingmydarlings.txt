@@ -1,0 +1,96 @@
+<section class="footer">
+        <div class="col3">
+            <h1>Test</h1>
+        </div>
+        <div class="col3">
+            <h1>Test</h1>
+        </div>
+        <div class="col3">
+            <h1>Test</h1>
+        </div>
+        <div class="col3">
+            <h1>Test</h1>
+        </div>
+    </section>
+
+    .footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.col3{
+    float: left;
+    width: 25%;
+    background-color: green;
+    
+}
+
+<input type="submit" value="Submit Message">
+
+
+
+
+<div class="row">
+            <div class="column">
+                <li><a href=""><img class= "people" src="images/mayor.png" alt=""></a></li>
+            </div>
+            <div class="textcolumn">
+                <h2>Mayor Robert Yamamoto</h2>
+                <p>Mayor Yamamoto has served Grimlock as mayor for the past 15 years. Under his leadership Grimlock has succeeded in completely
+                    renovating Grimlock Elementary, Middle School, and High School. He has also worked with Wilson Grim to 
+                    revitalize the exporting of timber from the rich forests around Grimlock, allowing the city to prosper. He can often be found 
+                    at one of the schools, either giving lectures to the teens of the town on the importance of being involved with city politics
+                    or volunteering wherever an extra hand is needed. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <li><a href=""><img class= "people" src="images/sherrif.png" alt=""></a></li>
+            </div>
+            <div class="textcolumn">
+                <h2>Sherrif Holly Myers</h2>
+                <p>Sherrif Myers has been protecting Grimlock for 10 years. When she was originally apointed, Sherrif Myers was the youngest 
+                    sherrif Grimlock had ever seen. She grew up in Grimlock, and has said that it is her life's work to keep the people of this beautiful town
+                    safe. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <li><a href=""><img class= "people" src="images/bussinessCEO.png" alt=""></a></li>
+            </div>
+            <div class="textcolumn">
+                <h2>Wilson Grim</h2>
+                <p>Wilson Grim is the current owner of the lumber yards that make up most of Grimlock's income. His family, the Grims, were 
+                    the original founders of Grimlock and have owned the yards longer than the town has been around. Wilson Grim himself has not only 
+                    donated generously to both the education system but also the hospital, allowing Grimlock General to expand its Emergency Room and ICU.
+                    Wilson Grim is said to employ around a third of all the citizens of Grimlock.
+                </p>
+            </div>
+        </div>
+
+
+
+.column{
+    float: left;
+    width: 50%;
+    list-style-type: none;
+}
+
+
+.column img{
+    width: 300px;
+    height:350px;
+    list-style-type: none;
+    padding-left: 50px;
+}
+.textcolumn{
+    float: right;
+    width:50%;
+}
+.textcolumn h2{
+    flex: 1;
+    text-align: center;
+}

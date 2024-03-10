@@ -1,0 +1,41 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color:#415c4b;
+}
+input[type=submit]{
+    background-color: #415c4b;
+    color: #dde7ca;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    list-style-type: none;
+    
+}
+input[type=submit]:hover{
+    background-color: #dde7ca;
+    color:#415c4b;
+}
+.container{
+    border-radius: 5px;
+    background-color: #adbca5;
+    padding: 20px;
+    margin-top: 40px;
+    list-style-type: none;
+}
+.secret1{
+    list-style-type: none;
+    margin-top: 100px;
+    text-align: end;
+    color: #dde7ca;
+}

@@ -1,0 +1,36 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.row{
+    float: left;
+}
+
+.column{
+    float: left;
+    width: 40%;
+    list-style-type: none;
+}
+
+
+.column img{
+    
+    width: 300px;
+    height:350px;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.textcolumn{
+    float: right;
+    width:60%;
+    padding-top: 50px;
+    color: #415c4b;
+}
+.textcolumn h2{
+    flex: 1;
+    text-align: center;
+    color: #415c4b;
+}
+

@@ -1,0 +1,326 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.map{
+    background-image: url(images/townmap.png);
+    height: 1280px;
+    width: 1280px;
+    margin-left: 100px;
+}
+.houses1{
+    position: absolute;
+    top: 240px;
+    right: 640px;
+    color: white;
+}
+.hospital{
+    position: absolute;
+    top: 440px;
+    right: 570px;
+    color: white;
+}
+.hospitalinfo{
+    opacity: 0;
+    position: absolute;
+    top: 440px;
+    right: 530px;
+    color: white;
+    
+}
+
+.hospitalinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 250px;
+    height: 200px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.houses1info{
+    opacity: 0;
+    position: absolute;
+    top: 240px;
+    right: 640px;
+    color: white;
+}
+.houses1info:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 250px;
+    height: 200px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.fire{
+    position: absolute;
+    top: 350px;
+    right: 800px;
+    color: white;
+}
+.fireinfo{
+    opacity: 0;
+    position: absolute;
+    top: 350px;
+    right: 800px;
+    color: white;
+}
+.fireinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 200px;
+    height: 150px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.park{
+    position: absolute;
+    top: 600px;
+    right: 600px;
+    color: white;
+}
+.parkinfo{
+    opacity: 0;
+    position: absolute;
+    top: 600px;
+    right: 600px;
+    color: white;
+}
+.parkinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 200px;
+    height: 150px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.schools{
+    position: absolute;
+    top: 440px;
+    right: 350px;
+    color: white;
+}
+.schoolsinfo{
+    opacity: 0;
+    position: absolute;
+    top: 440px;
+    right: 350px;
+    color: white;
+}
+.schoolsinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 250px;
+    height: 200px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.stores{
+    position: absolute;
+    top: 325px;
+    right: 425px;
+    color: white;
+}
+.storesinfo{
+    opacity: 0;
+    position: absolute;
+    top: 325px;
+    right: 425px;
+    color: white;
+}
+.storesinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 200px;
+    height: 150px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.police{
+    position: absolute;
+    top: 700px;
+    right: 900px;
+    color: white;
+}
+.policeinfo{
+    opacity: 0;
+    position: absolute;
+    top: 700px;
+    right: 900px;
+    color: white;
+}
+.policeinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 200px;
+    height: 150px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.townhall{
+    position: absolute;
+    top: 730px;
+    right: 800px;
+    color: white;
+}
+.townhallinfo{
+    opacity: 0;
+    position: absolute;
+    top: 730px;
+    right: 800px;
+    color: white;
+}
+.townhallinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 200px;
+    height: 150px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.mall{
+    position: absolute;
+    top: 750px;
+    right: 650px;
+    color: white;
+}
+.mallinfo{
+    opacity: 0;
+    position: absolute;
+    top: 750px;
+    right: 650px;
+    color: white;
+}
+.mallinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 200px;
+    height: 150px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.null{
+    position: absolute;
+    top: 60px;
+    right: 380px;
+    color: white;
+}
+.nullinfo{
+    opacity: 0;
+    position: absolute;
+    top: 60px;
+    right: 380px;
+    color: white;
+    
+}
+.nullinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 100px;
+    height: 100px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.lumberyard{
+    position: absolute;
+    top: 190px;
+    right: 1050px;
+    color: white;
+}
+.lumberyardinfo{
+    opacity: 0;
+    position: absolute;
+    top: 190px;
+    right: 1050px;
+    color: white;
+}
+.lumberyardinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 250px;
+    height: 200px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+    
+}
+.pier1{
+    position: absolute;
+    top: 970px;
+    right: 700px;
+    color: white;
+}
+.pier1info{
+    opacity: 0;
+    position: absolute;
+    top: 970px;
+    right: 700px;
+    color: white;
+}
+.pier1info:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 250px;
+    height: 200px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+}
+.woods{
+    position: absolute;
+    top: 710px;
+    right: 1200px;
+    color: white;
+}
+.woodsinfo{
+    opacity: 0;
+    position: absolute;
+    top: 710px;
+    right: 1200px;
+    color: white;
+}
+.woodsinfo:hover{
+    display: block;
+    opacity: 1;
+    background-color: #adbca5;
+    width: 220px;
+    height: 170px;
+    z-index:9;
+    color: #415c4b;
+    font-size: smaller;
+    border-radius: 12px;
+    
+}

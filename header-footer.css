@@ -1,0 +1,36 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #dde7ca;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #415c4b;
+    
+}
+header ul li{
+    float: right;
+}
+header ul li a{
+    display: block;
+    color: #dde7ca;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+}
+
+header li a:hover{
+    background-color: #adbca5;
+    color:#415c4b;
+}
+
+
