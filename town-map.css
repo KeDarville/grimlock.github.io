@@ -2,7 +2,7 @@
     font-family: "Montserrat", sans-serif;
 }
 .map{
-    background-image: url(![](townmap.png));
+    background-image: url(Images/townmap.png);
     height: 1280px;
     width: 1280px;
     margin-left: 100px;
