@@ -9,12 +9,8 @@
 }
 .houses1{
     position: absolute;
-    -webkit-top: 240px;
-    -moz-top: 240px;
-    -ms-top: 240px;
-    -webkit-right: 640px;
-    -moz-right: 640px;
-    -ms-right: 640px;
+    top: 240px;
+    right: 640px;
     color: white;
 }
 .hospital{
@@ -87,12 +83,8 @@
 }
 .park{
     position: absolute;
-    -webkit-top: 600px;
-    -moz-top: 600px;
-    -ms-top: 600px;
-    -webkit-right: 600px;
-    -moz-right: 600px;
-    -ms-right: 600px;
+    top: 600px;
+    right: 600px;
     color: white;
 }
 .parkinfo{
