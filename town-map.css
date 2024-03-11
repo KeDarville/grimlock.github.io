@@ -9,8 +9,12 @@
 }
 .houses1{
     position: absolute;
-    top: 240px;
-    right: 640px;
+    -webkit-top: 240px;
+    -moz-top: 240px;
+    -ms-top: 240px;
+    -webkit-right: 640px;
+    -moz-right: 640px;
+    -ms-right: 640px;
     color: white;
 }
 .hospital{
