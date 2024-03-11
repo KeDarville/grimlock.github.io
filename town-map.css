@@ -87,8 +87,12 @@
 }
 .park{
     position: absolute;
-    top: 600px;
-    right: 600px;
+    -webkit-top: 600px;
+    -moz-top: 600px;
+    -ms-top: 600px;
+    -webkit-right: 600px;
+    -moz-right: 600px;
+    -ms-right: 600px;
     color: white;
 }
 .parkinfo{
